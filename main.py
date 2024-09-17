@@ -16,7 +16,7 @@ modelo = pd.read_parquet("Data_Modelo_Recomendacion.parquet")
 #Ruta de inicio
 @app.get("/")
 async def index():
-    return "Api Recomemdacion de peliculas"
+    return "Api Recomendacion de peliculas"
 
 
 #1 Ruta de cantidad de películas para un mes particular
